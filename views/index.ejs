@@ -13,10 +13,11 @@
 			let list = [];
 			var url = "http://localhost:3031/api/";
 			$.getJSON(url).done(function(data){
-				console.log(data);
-				$.each(data, function(i,f){
+				let i = data.foo.colors;
+				console.log(i);
+				$.each(i, function(i,f){
                    console.log(f);
-                   list.push(f);
+                   list.push(f.color);
 				});
 			console.log(list);
 			});
