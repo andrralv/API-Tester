@@ -1,0 +1,28 @@
+{
+  "colors": [
+    {
+      "color": "black",
+      "category": "hue"
+    },
+    {
+      "color": "white",
+      "category": "value"
+    },
+    {
+      "color": "red",
+      "category": "hue"
+    },
+    {
+      "color": "blue",
+      "category": "hue"
+    },
+    {
+      "color": "yellow",
+      "category": "hue"
+    },
+    {
+      "color": "green",
+      "category": "hue"
+    }
+  ]
+}
