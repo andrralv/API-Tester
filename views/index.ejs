@@ -8,19 +8,5 @@
   <body>
     <h1>Express Api Boilerplate</h1>
   </body>
-  <script>
-		$(function(){
-			let list = [];
-			var url = "http://localhost:3031/api/";
-			$.getJSON(url).done(function(data){
-				let i = data.foo.colors;
-				console.log(i);
-				$.each(i, function(i,f){
-                   console.log(f);
-                   list.push(f.color);
-				});
-			console.log(list);
-			});
-		})
-  </script>
+  <script src="javascripts/api-test.js"></script>
 </html>
